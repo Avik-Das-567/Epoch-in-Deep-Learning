@@ -19,6 +19,7 @@ model.fit(X, Y, epochs=100)
 
 st.write("X =", X)
 st.write("Y =", Y)
-st.markdown("#### For Input 25.0, the Predicted Output  is :-")
 
-st.write(model.predict(np.array([25.0])))
+n = float(input("Please enter a floating-point number : "))
+st.markdown(f"#### For Input {n}, the Predicted Output  is :-")
+st.write(model.predict(np.array([n])))
