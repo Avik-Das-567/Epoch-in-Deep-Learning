@@ -1,6 +1,7 @@
 # Epoch in Deep Learning
 ---
 ### App Link : https://epoch-in-deep-learning.streamlit.app/
+- This app builds and trains a minimal neural network using TensorFlow and Keras to learn a simple linear relationship between input and output data.
 ---
 ## Definition :
 
