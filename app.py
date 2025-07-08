@@ -19,6 +19,6 @@ model.fit(X, Y, epochs=100)
 
 st.write("X =", X)
 st.write("Y =", Y)
-st.write("Predicted Output for Input 25.0 is :-")
+st.subheader("Predicted Output for Input 25.0 is :-")
 
 st.write(model.predict(np.array([25.0])))
