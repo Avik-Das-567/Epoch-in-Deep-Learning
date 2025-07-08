@@ -18,7 +18,7 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 model.fit(X, Y, epochs=100)
 
 st.markdown("##### Training Data :-")
-st.write("X =", X)
+st.dataframe("X =", X)
 st.write("Y =", Y)
 
 n = st.number_input("Please enter a Number : ")
