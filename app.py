@@ -17,6 +17,7 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 # Train with 100 repetitions (epochs)
 model.fit(X, Y, epochs=100)
 
+st.markdown("#### Training Data :-")
 st.write("X =", X)
 st.write("Y =", Y)
 
