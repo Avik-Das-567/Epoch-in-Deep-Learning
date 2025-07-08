@@ -25,7 +25,7 @@
 * **Overfitting** : When a model learns **too much** and performs poorly on new data.
 
 ---
-## Dataset
+## Training Data
 
 ```python
 X = [1, 2, 3, 4, 5]  # Inputs  
