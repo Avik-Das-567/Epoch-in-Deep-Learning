@@ -17,10 +17,10 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 # Train with 100 repetitions (epochs)
 model.fit(X, Y, epochs=100)
 
-st.markdown("#### Training Data :-")
+st.markdown("##### Training Data :-")
 st.write("X =", X)
 st.write("Y =", Y)
 
-n = st.number_input("Please enter a floating-point number : ")
+n = st.number_input("Please enter a Number : ")
 st.markdown(f"#### For Input {n}, the Predicted Output  is :-")
 st.write(model.predict(np.array([n])))
