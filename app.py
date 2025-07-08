@@ -4,8 +4,8 @@ from tensorflow.keras.layers import Dense
 import numpy as np
 
 # Data
-X = np.array([1, 2, 3, 4], dtype=float)
-Y = np.array([2, 4, 6, 8], dtype=float)
+X = np.array([1, 2, 3, 4, 5], dtype=float)
+Y = np.array([2, 4, 6, 8, 10], dtype=float)
 
 # Model
 model = Sequential()
@@ -17,5 +17,5 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 # Train with 100 repetitions (epochs)
 model.fit(X, Y, epochs=100)
 
-# Try predicting 5
-st.write(model.predict(np.array([5.0])))
+# Try predicting 25
+st.write(model.predict(np.array([25.0])))
