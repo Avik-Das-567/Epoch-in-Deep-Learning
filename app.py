@@ -17,5 +17,8 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 # Train with 100 repetitions (epochs)
 model.fit(X, Y, epochs=100)
 
-# Try predicting 25
+st.write("X =", X)
+st.write("Y =", Y)
+st.write("Predicted Output for Input 25.0 is :-")
+
 st.write(model.predict(np.array([25.0])))
