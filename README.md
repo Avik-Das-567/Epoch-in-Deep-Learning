@@ -37,8 +37,8 @@ We want the Model to **learn**
 
 ---
 ## Expected Output
-- We try predicting **25**, i.e., **`model.predict(np.array([25.0]))`**
-- The model will print **output** → approximately **≈ 50**
+- We enter a number **25.00**, i.e., **`model.predict(np.array([25.00]))`**
+- After training, the model will predict the **output** → approximately **≈ 50**
 ---
 ## Additional Insights :
 - Most models are trained using **10 to 100 epochs**.
