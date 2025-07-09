@@ -33,12 +33,12 @@ X = [1, 2, 3, 4, 5]  # Inputs
 Y = [2, 4, 6, 8, 10]  # Outputs (X * 2)
 ```
 
-We want the Model to **learn** 
+We want the Model to **learn** : 
 > **Multiply input by 2**
 
 ---
 ## Expected Output
-- We enter a number **25.00**, i.e., **`model.predict(np.array([25.00]))`**
+- We enter a number: **25.00**, i.e., **`model.predict(np.array([25.00]))`**
 - After training, the model will predict the **output** → approximately **≈ 50**
 ---
 ## Additional Insights :
